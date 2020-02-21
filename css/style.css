@@ -28,11 +28,16 @@ p {
 }
 .service {
   background-image: url("../img/s_image.jpg");
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
 
 }
-.serivce h2 {
+.head-service {
   color: white;
   text-align: center;
+  size: 10px;
+  
 }
 .service p {
   color: white;
