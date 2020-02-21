@@ -1,12 +1,18 @@
 
 .welcome{
-  background-image: url("/img/h_img.jpg");
-  
+  background-image: url("../img/h_img.jpg");
+  height: 700px;
+  padding: 15%;
+  background-repeat: no-repeat;
+  text-align: center;
 }
 h1 {
   text-align: center;
+  color: white;
 }
 p{
   size: 10px;
   text-align: center;
+  color: white;
 }
+
