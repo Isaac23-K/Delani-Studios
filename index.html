@@ -63,16 +63,30 @@
 
 
     <div class="contact">
-      <h1>CONTACT US</h1>
-   <form action="Your name" method="POST">
-         <label for="name">NAME:</label>
-         <input type="text" id="name" name="user_name">
-         <label for="Email">Email:</label>
-         <input type="email" id="Email" name="user_mail">
-       <li>
-         <label for="msg">Message:</label>
-         <textarea id="msg" name="User_message"></textarea>
-       </li>
+      <form>
+        <div class="row">
+            <div class="col-md-6">
+                <input type="text" class="form-control" id="Name" placeholder="Name..."
+                    style="background-color: transparent" style="text-emphasis-color: white">
+            </div>
+            <div class="col-md-6">
+                <input type="email" class="form-control" id="Email" placeholder="Email..."
+                    style="background-color: transparent" style="text-emphasis-color:white">
+            </div>
+
+        </div>
+        <br>
+        <br>
+
+        <textarea class="form-control" rows="9" placeholder="your message here..."
+            style="background-color: transparent" style="text-emphasis-color:white" id="Message"></textarea>
+        <br><br>
+        <button type="button" id="submit" class="btn btn-primary">submit</button>
+    </form>
+</div>
+</div>
+
+
      
    </form>   
 </body>
