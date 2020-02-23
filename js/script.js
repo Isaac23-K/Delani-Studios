@@ -12,3 +12,4 @@ $(".select").click(function(){
 $(".hide3").slideToggle(1000);
 $(".show3").slideToggle(1200)
 })
+
