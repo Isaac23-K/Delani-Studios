@@ -71,3 +71,6 @@ h4 {
 .contact h1 {
   color: white;
 }
+#portfolio{
+  border-image-repeat: stretch;
+}

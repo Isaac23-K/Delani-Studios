@@ -10,5 +10,5 @@ $(".show").slideToggle(1200);
 
 $(".select").click(function(){
 $(".hide3").slideToggle(1000);
-$(".show3").slideToggle(1200);
+$(".show3").slideToggle(1200)
 })
