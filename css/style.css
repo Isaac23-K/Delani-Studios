@@ -74,3 +74,12 @@ h4 {
 #portfolio{
   border-image-repeat: stretch;
 }
+
+.pt {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hide0 {
+  display: none;
+}
